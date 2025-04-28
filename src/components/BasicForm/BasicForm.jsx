@@ -48,11 +48,11 @@ const BasicForm = (props) => {
         </div>
 
         <div className='form-actions'>
-          <button>Submit</button>
+          <button className={isValid ? '' : 'button-disabled'} disabled={!isValid} >Submit</button>
         </div>
 
         <div className="login">
-            <p>Already have an account? Login</p>
+            <a href="" target="_blank" className="nounderline">Already have an account? Login</a>
         </div>
       </form>
 
