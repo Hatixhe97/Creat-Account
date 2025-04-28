@@ -75,19 +75,33 @@ body{
     border-color: rgb(139,212,229);
   }
 
+
+  .button-disabled{
+    background-color: #b1b1b1;
+    border-color: #b1b1b1 ;
+  }
+
+  .button-disabled:hover{
+    background-color: #b1b1b1;
+    border-color: #b1b1b1 ;
+  }
+
   .login{
     text-align: center;
     margin-top: 20px;
     font-size: 14px;
   }
 
+  .nounderline{
+    text-decoration: none;
+    color: black;
+  }
+
+
   html {
     font-family: 'Noto Sans JP', sans-serif;
   }
-
- 
   
-
   .eye-icon{
     position: absolute;
     z-index: 1;
