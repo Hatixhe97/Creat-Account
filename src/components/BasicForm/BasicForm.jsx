@@ -44,7 +44,6 @@ const BasicForm = (props) => {
             <span className="eye-icon" onClick={passwordActivation}>
               <FontAwesomeIcon icon={showPassword ? faEyeSlash : faEye} />
            </span>
-
         </div>
 
         <div className='form-actions'>
