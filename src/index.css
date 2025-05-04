@@ -34,12 +34,17 @@ body{
   .form-control input,
   .form-control select {
     font: inherit;
-    padding: 0.5rem;
+    padding: 10px 10px 10px 10px;
+    outline: none;
     border-radius: 4px;
     border: 1px solid #ccc;
     width: 40rem;
-    max-width: 100%;
+    height: 40px;
+    font-size: 16px;
+    box-sizing: border-box;    
   }
+
+
   
   .form-control input:focus {
     outline: none;
@@ -75,7 +80,6 @@ body{
     border-color: rgb(139,212,229);
   }
 
-
   .button-disabled{
     background-color: #b1b1b1;
     border-color: #b1b1b1 ;
@@ -90,6 +94,7 @@ body{
     text-align: center;
     margin-top: 20px;
     font-size: 14px;
+    cursor: pointer;
   }
 
   .nounderline{
@@ -97,19 +102,24 @@ body{
     color: black;
   }
 
-
   html {
     font-family: 'Noto Sans JP', sans-serif;
   }
-  
 
   .eye-icon{
     position: absolute;
-    z-index: 1;
+    z-index: 2;
     transform: translateY(-50%);
     cursor: pointer;
     color: #777;
     top: 70%;
     right: 70px;
   }
+
+  .error-text {
+    color: #b40e0e;
+    font-size: 12px;
+    margin-top: 5px
+  }
+
   
